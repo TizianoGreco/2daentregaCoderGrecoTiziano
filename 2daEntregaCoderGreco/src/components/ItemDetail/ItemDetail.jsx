@@ -13,7 +13,7 @@ const ItemDetail = ({product}) => {
 
   return (
     <Flex justify={'center'} align={'center'}>
-    <Card maxW='sm' m={3} color={'blue'} backgroundColor={'#D2D0D0'}>
+    <Card maxW='sm' m={3} color={'bLACK'} backgroundColor={'#F0DAB8'}>
   <CardBody>
     <Image
       src={product.img}
@@ -28,7 +28,7 @@ const ItemDetail = ({product}) => {
       <Text>
         {product.descripcion}
       </Text>
-      <Text color='blue.600' fontSize='2xl'>
+      <Text color='Yellow.600' fontSize='2xl'>
         ${product.precio}
       </Text>
     </Stack>

@@ -23,7 +23,7 @@ const ItemDetailContainer = () => {
         {
       loading ? (
         <Flex justify="center" align="center" height="100vh">
-          <CircularProgress isIndeterminate color="green.300" />
+          <CircularProgress isIndeterminate color="Yellow.300" />
         </Flex>
       )
       :
