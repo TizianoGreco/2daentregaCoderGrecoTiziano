@@ -1,0 +1,36 @@
+.cart-summary {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 1px solid #ffffff;
+}
+
+.cart-summary .chakra-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cart-summary .chakra-button {
+    margin: 0 10px;
+}
+
+.cart-summary .chakra-button:first-of-type {
+    background-color: #e53e3e;
+    color: white;
+}
+
+.cart-summary .chakra-button:first-of-type:hover {
+    background-color: #c53030;
+}
+
+.cart-summary .checkout-btn {
+    background-color: #2fc412;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cart-summary .checkout-btn:hover {
+    background-color: #1a7c22;
+}
