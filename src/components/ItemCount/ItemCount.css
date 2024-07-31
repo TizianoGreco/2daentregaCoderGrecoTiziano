@@ -1,0 +1,13 @@
+.item-count-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-count {
+    margin: 0 10px;
+  }
+  
+  .add-to-cart {
+    margin-left: 10px;
+  }
+  
